@@ -87,23 +87,23 @@ Retail-Billing-Machine/
 ## 📸 Screenshots
 
 ### 🖥️ Main Application Interface
-![Main UI](screenshots/image-1.png)
+![Main UI](image-1.png)
 
 ### 🧾 Generated Bill Output
-![Bill Output](screenshots/image-2.png)
+![Bill Output](image-2.png)
 
 ### 📧 Email Bill Feature
-![Email Bill](screenshots/image-3.png)
+![Email Bill](image-3.png)
 
 
 ### 🖥️ Dashboard View
-![Dashboard](image1.png)
+![Dashboard](image-1.png)
 
 ### 🧾 Billing Page
-![Billing](image2.png)
+![Billing](image-2.png)
 
 ### 📊 Sales Report
-![Report](image3.png)
+![Report](image-3.png)
 
 
 
@@ -158,6 +158,7 @@ Aspiring Software / AI Engineer
 🔗 GitHub: https://github.com/harshpreetkaur1012-web
 
 ⭐ If you find this project useful, feel free to star the repository!
+
 
 
 
