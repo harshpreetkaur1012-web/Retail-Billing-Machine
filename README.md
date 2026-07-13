@@ -40,7 +40,7 @@ It focuses on **GUI development, event-driven programming, file handling, and us
 
 ## 📸 Screenshots
 
-<div style="display:flex; overflow-x:auto; gap:15px; padding:10px;">
+<div style="display:flex; overflow-x:auto; gap:20px; padding:15px;">
 
 <img src="image-1.png" width="700">
 
