@@ -40,15 +40,11 @@ It focuses on **GUI development, event-driven programming, file handling, and us
 
 ## 📸 Screenshots
 
-<div style="display:flex; overflow-x:auto; gap:20px; padding:15px;">
-
-<img src="image-1.png" width="700">
-
-<img src="image-2.png" width="700">
-
-<img src="image-3.png" width="700">
-
-</div>
+<p align="center">
+  <img src="image-1.png" width="800"><br><br>
+  <img src="image-2.png" width="800"><br><br>
+  <img src="image-3.png" width="800">
+</p>
 
 
 ## 📂 Project Structure
