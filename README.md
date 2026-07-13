@@ -1,172 +1,264 @@
-# 🧾 Retail Billing System (Python Tkinter)
+<div align="center">
 
-A **desktop-based Retail Billing System** developed using **Python and Tkinter**, designed to automate the billing process in small retail shops.  
-The application allows users to generate bills, calculate item-wise prices, apply taxes, save bills, print bills, and send invoices via email.
+# 🧾 Retail Billing System
 
-## 📌 Project Overview
+### A Modern Desktop Billing Application built using Python & Tkinter
 
-This project demonstrates my ability to design and implement a **real-world desktop application** using Python.  
-It focuses on **GUI development, event-driven programming, file handling, and user interaction**, which are essential skills for software development internships.
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 
----
+<br><br>
 
-## 📌 Key Features
+A desktop-based Retail Billing System developed using **Python** and **Tkinter** to automate billing operations for small retail stores.
 
-- 🛒 Category-wise product billing (Cosmetics, Grocery, Soft Drinks)
-- 🧮 Automatic price & tax calculation
-- 🧾 Bill generation with customer details
-- 💾 Save bills locally with unique bill numbers
-- 🔍 Search previously saved bills
-- 🖨️ Print bills directly from the application
-- 📧 Send bills via email using SMTP
-- 🧹 Clear/reset bill for next customer
-- 🖥️ User-friendly GUI built with Tkinter
+Generate invoices, calculate taxes automatically, save bills, print receipts, and even send invoices through email.
+
+⭐ If you like this project, consider giving it a star.
+
+</div>
 
 ---
 
-## 🛠️ Technologies Used
-
-- **Programming Language:** Python  
-- **GUI Framework:** Tkinter  
-- **Libraries & Modules:**
-  - `tkinter`
-  - `messagebox`
-  - `random`
-  - `os`
-  - `tempfile`
-  - `smtplib`
-- **IDE:** VS Code  
-- **Version Control:** Git & GitHub
-
-## 📸 Screenshots
+# 🎥 Project Demo
 
 <p align="center">
-  <img src="image-1.png" width="800"><br><br>
-  <img src="image-2.png" width="800"><br><br>
-  <img src="image-3.png" width="800">
+<a href="https://www.youtube.com/watch?v=QR9y0MvY8Vw">
+<img src="https://img.youtube.com/vi/QR9y0MvY8Vw/maxresdefault.jpg" width="900">
+</a>
 </p>
 
+<div align="center">
 
-## 📂 Project Structure
+▶️ **Click the image above to watch the full project demonstration**
 
+</div>
+
+---
+
+# 📖 Project Overview
+
+The Retail Billing System is a desktop application built to simplify billing operations in retail shops.
+
+The application demonstrates GUI development, event-driven programming, file handling, email integration, and real-world software engineering concepts using Python.
+
+---
+
+# ✨ Features
+
+✅ Category-wise product billing
+
+✅ Automatic GST & Tax Calculation
+
+✅ Customer Information Management
+
+✅ Auto-generated Bill Numbers
+
+✅ Save Bills
+
+✅ Search Existing Bills
+
+✅ Print Bills
+
+✅ Email Bills using SMTP
+
+✅ Reset Bill
+
+✅ Clean Tkinter GUI
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Python | Programming Language |
+| Tkinter | GUI Development |
+| SMTP | Email Sending |
+| OS Module | File Handling |
+| tempfile | Printing |
+| VS Code | IDE |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+
+---
+
+# 📸 Screenshots
+
+## 🖥️ Home Window
+
+<p align="center">
+<img src="image-1.png" width="900">
+</p>
+
+---
+
+## 🧾 Generated Bill
+
+<p align="center">
+<img src="image-2.png" width="900">
+</p>
+
+---
+
+## 📧 Email Feature
+
+<p align="center">
+<img src="image-3.png" width="900">
+</p>
+
+---
+
+# 📂 Project Structure
+
+```text
 Retail-Billing-Machine/
 │
-├── main.py # Main application file
-├── bills/ # Stores saved bill files
-├── icon-ico.ico # Application icon
-├── README.md # Project documentation
+├── Retail billing machine.py
+├── icon-ico.ico
+├── image-1.png
+├── image-2.png
+├── image-3.png
+├── README.md
+└── bills/
+```
 
+---
 
-## ▶️ How to Run the Project
+# 🚀 Installation
 
-### 1️⃣ Prerequisites
-- Python 3.x installed  
-- Tkinter (comes pre-installed with Python)
+## Clone Repository
 
-### 2️⃣ Clone the Repository
 ```bash
 git clone https://github.com/harshpreetkaur1012-web/Retail-Billing-Machine.git
+```
 
-3️⃣ Navigate to Project Folder
+---
+
+## Move into Project
+
+```bash
 cd Retail-Billing-Machine
+```
 
-4️⃣ Run the Application
-python main.py
+---
 
-🧾 How the Application Works
-Enter Customer Name and Phone Number
-Add quantities for required products
-Click Total to calculate prices and taxes
-Click Bill to generate the bill
-Use options to:
-Save the bill
-Search old bills
-Print the bill
-Send bill via email
+## Run Application
 
-Retail-Billing-Machine/
-│
-├── screenshots/
-│   ├── image-1.png
-│   ├── image-2.png
-│   └── image-3.png
+```bash
+python "Retail billing machine.py"
+```
 
+---
 
-## 📸 Screenshots
+# 💻 Application Workflow
 
-### 🖥️ Main Application Interface
-![Main UI](image-1.png)
+```text
+Start Application
+       │
+       ▼
+Enter Customer Details
+       │
+       ▼
+Select Products
+       │
+       ▼
+Calculate Total
+       │
+       ▼
+Generate Bill
+       │
+       ├────────► Save Bill
+       │
+       ├────────► Search Bill
+       │
+       ├────────► Print Bill
+       │
+       └────────► Email Bill
+```
 
-### 🧾 Generated Bill Output
-![Bill Output](image-2.png)
+---
 
-### 📧 Email Bill Feature
-![Email Bill](image-3.png)
+# 📊 Project Highlights
 
+- Desktop Billing Software
+- Event-driven Programming
+- GUI Development
+- Modular Code Structure
+- File Handling
+- Email Integration
+- Print Functionality
 
-### 🖥️ Dashboard View
-![Dashboard](image-1.png)
+---
 
-### 🧾 Billing Page
-![Billing](image-2.png)
+# 🎯 Learning Outcomes
 
-### 📊 Sales Report
-![Report](image-3.png)
+✔ Python GUI Development
 
+✔ Tkinter Widgets
 
+✔ Event Handling
 
-📸 Output
-Displays a detailed bill with:
-Product name
-Quantity
-Price
-Tax details
-Total amount
-Bills are saved as .txt files inside the bills/ folder
+✔ File Management
 
-## 🎯 Learning Outcomes
+✔ SMTP Email Service
 
-- Built a complete desktop application from scratch
-- Strengthened understanding of GUI-based workflows
-- Applied Python concepts to solve real business problems
-- Learned how to structure and document a production-ready project
-- Gained hands-on experience with GitHub collaboration workflows
+✔ Real-world Business Logic
 
+✔ Git & GitHub Workflow
 
-🎯 Learning Outcomes
-Practical experience with Python GUI development
-Understanding of event-driven programming
-File handling in Python
-Working with SMTP for email functionality
-Real-world billing system logic
-Hands-on use of Git & GitHub
+---
 
-## 💼 Internship Relevance
+# 💼 Internship Relevance
 
-This project reflects my readiness for **Software Development / Python Internship roles** by demonstrating:
-- Ability to translate requirements into a working application
-- Clean and modular code structure
-- Practical understanding of user-facing software
-- Experience with debugging, testing, and improving features
+This project demonstrates:
 
+- Problem Solving
+- Clean UI Design
+- Python Programming
+- Software Engineering Principles
+- Business Application Development
+- User-centric Development
 
-🚀 Future Enhancements
-Database integration (MySQL / SQLite)
-Login & authentication system
-PDF bill generation
-Improved UI styling
-Product management dashboard
+---
 
-👩‍💻 Author
+# 🚀 Future Improvements
 
-Harshpreet Kaur
-B.Tech CSE Student (2027)
-Aspiring Software / AI Engineer
+- SQLite Database
+- Login Authentication
+- Dashboard Analytics
+- Product Inventory
+- PDF Invoice
+- Barcode Scanner
+- Dark Mode
+- GST Reports
+- Sales Dashboard
 
-🔗 GitHub: https://github.com/harshpreetkaur1012-web
+---
 
-⭐ If you find this project useful, feel free to star the repository!
+# 👩‍💻 Author
 
+## Harshpreet Kaur
 
+B.Tech Computer Science Engineering (2027)
 
+Python Developer | AI Enthusiast | Software Developer
 
+### GitHub
+
+https://github.com/harshpreetkaur1012-web
+
+### LinkedIn
+
+https://www.linkedin.com/in/harshpreetkaur1012/
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if you found it useful!
+
+Made with ❤️ by Harshpreet Kaur
+
+</div>
