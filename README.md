@@ -36,7 +36,21 @@ It focuses on **GUI development, event-driven programming, file handling, and us
   - `tempfile`
   - `smtplib`
 - **IDE:** VS Code  
-- **Version Control:** Git & GitHub  
+- **Version Control:** Git & GitHub
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="image-1.png" width="900">
+</p>
+
+<p align="center">
+  <img src="image-2.png" width="900">
+</p>
+
+<p align="center">
+  <img src="image-3.png" width="900">
+</p>
 
 
 ## 📂 Project Structure
